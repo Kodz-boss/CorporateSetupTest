@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition: .3s;
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images\ \(10\).jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.corp{
+    width: 40px;
+    height: 40px;
+    background-image: url('images\ \(11\).jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-bars{
+    font-size: 25px;
+    color: white;
+}
+
+.headercenter{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    gap: 70px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headertext{
+    font-size: 20px;
+}
+
+.headerbtn{
+    width: 65%;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(7, 167, 7);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.part1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.part1holder{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.part1text{
+    font-size: 20px;
+}
+
+.part1cover{
+    width: 70%;
+    height: 500px;
+    background-color: rgb(3, 63, 3);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.part1choose{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part1choosestart{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.seperate{
+    color: rgb(7, 167, 7);
+}
+
+.part1chooseboxes{
+    width: 70%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: rgb(78, 78, 78);
+}
+
+.part1pictures{
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+    border-bottom-left-radius: 200px;
+    background-image: url('corporatehome2.13df541d7e085797e54d.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part2{
+    width: 100%;
+    height: fit-content;
+    background-image: url('oil.40f4804bc9fc1a6a128c.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.part2holder{
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.part2text{
+    font-size: 20px;
+}
+
+.part3{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 70px;
+}
+
+.part3text{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 70%;
+}
+
+.part3subtext{
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.comp{
+    font-size: 22px;
+    color: white;
+}
+
+.tags{
+    color: white;
+}
+
+.foothold{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footholder{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+}
